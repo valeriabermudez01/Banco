@@ -12,7 +12,7 @@ public class Cliente {
     }
 
     public double consultarSaldoCuenta(){
-        System.out.println("El saldo es"+ this.tipoCuenta.saldo );
+        System.out.println("El saldo es "+ this.tipoCuenta.saldo );
         return this.tipoCuenta.saldo;
     }
 
